@@ -1,5 +1,6 @@
 from langchain_community.utilities import SQLDatabase
-dburl="postgresql://localhost:5432/postgres?user=postgres&password=a"
+dburl="postgresql://118.25.188.147:5432/aidb?user=pgsql&password=pgsql"
+
 db = SQLDatabase.from_uri(dburl)
 # print(db.dialect)
 # run = db.run("SELECT * FROM aiintro.EMPLOYEE LIMIT 10;")
